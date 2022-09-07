@@ -1,0 +1,16 @@
+.alert {
+    position:relative;
+    bottom:15rem;
+    left: 15rem;
+    z-index: 1;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: rgba(124, 43, 43, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 900;
+    text-transform: uppercase;
+}

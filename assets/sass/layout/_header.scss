@@ -1,0 +1,32 @@
+@import 'navbar';
+
+header {
+    min-height: 90vh;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    background: url('../../../images/p-9.jpg') no-repeat center/cover;
+    //opacity: 0.4;
+
+    .logo{
+        width:100px;
+        height: 100px;
+        //border-radius: 50%;
+    }
+
+    .header-content {
+        align-self: center;
+        margin-top: 8rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-size: 3em;
+            margin-bottom: 1rem;
+        }
+    }
+
+}

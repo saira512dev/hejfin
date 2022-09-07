@@ -1,0 +1,13 @@
+@import 'libs/vars';
+
+// Base.
+
+@import 'base/reset';
+@import 'base/page';
+//@import 'base/typography';
+
+
+    @import 'layout/bg';
+	@import 'layout/headerContainer';
+    @import 'layout/main';
+	@import 'layout/footer';
