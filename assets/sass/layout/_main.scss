@@ -22,7 +22,7 @@ html {
 main{
 
     .intro {
-        padding: 2rem 15rem;
+        // padding: 2rem 15rem;
         display: flex;
         gap:5rem;
         margin-bottom: 2rem;
@@ -39,6 +39,36 @@ main{
             align-items: center;
             text-align: center;
         }
+    }
+
+    .parallax{
+        margin: 4rem 0;
+        min-height: 400px;
+        background: url('../../../images/pexels-cotton.jpg');
+        position: relative;
+        opacity: 0.9;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .parallax-text{
+            color:white;
+            text-align: center;
+            line-height: 1.5;
+            padding:0 20rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            
+        }
+    }
+
+    .contact{
+        height:70vh;
+        
     }
 }
 
