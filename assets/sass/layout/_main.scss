@@ -1,16 +1,44 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 .alert {
     position:relative;
     bottom:15rem;
     left: 15rem;
-    z-index: 1;
+   // z-index: 1;
     width: 18rem;
     height: 18rem;
     border-radius: 50%;
-    background: rgba(124, 43, 43, 0.8);
+    background: rgba(221,217,231, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
-    color:white;
-    font-weight: 900;
+   // color:white;
+   font-weight: 400;
     text-transform: uppercase;
 }
+
+main{
+
+    .intro {
+        padding: 2rem 15rem;
+        display: flex;
+        gap:5rem;
+        margin-bottom: 2rem;
+        justify-content:center;
+        align-items:center;
+
+
+        &-sub {
+            width: 10rem;
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+

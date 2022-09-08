@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -75,7 +76,7 @@ nav {
       cursor: pointer; }
       nav ul li a {
         text-decoration: none;
-        color: white; }
+        color: black; }
         nav ul li a:hover {
           color: white; }
 
@@ -84,14 +85,13 @@ header {
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  background: url("../../../images/p-9.jpg") no-repeat center/cover; }
+  background: url("../../../images/nature-1.jpg") no-repeat center/cover; }
   header .logo {
     width: 100px;
     height: 100px; }
   header .header-content {
     align-self: center;
     margin-top: 8rem;
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,20 +103,37 @@ header {
 .header-container {
   clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 80%); }
 
+html {
+  scroll-behavior: smooth; }
+
 .alert {
   position: relative;
   bottom: 15rem;
   left: 15rem;
-  z-index: 1;
   width: 18rem;
   height: 18rem;
   border-radius: 50%;
-  background: rgba(124, 43, 43, 0.8);
+  background: rgba(221, 217, 231, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-weight: 900;
+  font-weight: 400;
   text-transform: uppercase; }
+
+main .intro {
+  padding: 2rem 15rem;
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center; }
+  main .intro-sub {
+    width: 10rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
