@@ -121,6 +121,7 @@ html {
   text-transform: uppercase; }
 
 main .intro {
+  margin-top: 2rem;
   display: flex;
   gap: 5rem;
   margin-bottom: 2rem;
@@ -153,8 +154,22 @@ main .parallax {
     line-height: 1.5;
     padding: 0 20rem;
     font-size: 1.5rem;
-    font-weight: bold; }
+    font-weight: bold;
+    text-shadow: 1px 1px black; }
 main .contact {
   height: 70vh; }
+
+footer {
+  width: 100%;
+  max-width: 100%;
+  margin: 2rem 0;
+  text-align: center; }
+  footer .copyright {
+    letter-spacing: 0.4rem;
+    font-size: 0.8rem;
+    opacity: 0.75;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 550; }
 
 /*# sourceMappingURL=main.css.map */
