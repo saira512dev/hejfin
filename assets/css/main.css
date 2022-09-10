@@ -137,9 +137,6 @@ main .intro {
     flex-direction: column;
     justify-content: center;
     align-items: space-between; }
-    main .intro-sub .img-container {
-      width: 100%;
-      height: 40%; }
     main .intro-sub img {
       width: 100%;
       height: auto; }
