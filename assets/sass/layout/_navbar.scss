@@ -22,3 +22,11 @@ nav{
         }
     }
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    z-index: 999999999;
+  }

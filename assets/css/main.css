@@ -83,6 +83,13 @@ nav {
         nav ul li a:hover {
           color: white; }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: black;
+  z-index: 999999999; }
+
 header {
   min-height: 90vh;
   font-weight: bold;
