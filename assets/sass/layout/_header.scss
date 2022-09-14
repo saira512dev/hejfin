@@ -1,19 +1,13 @@
-@import 'navbar';
-
 header {
     min-height: 90vh;
     font-weight: bold;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     background: url('../../../images/nature-1.jpg') no-repeat center/cover;
-    //opacity: 0.4;
-
-
 
     .header-content {
-        align-self: center;
-        margin-top: 8rem;
-        //color: white;
+        margin-top: 15rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -24,5 +18,4 @@ header {
             margin-bottom: 1rem;
         }
     }
-
 }
