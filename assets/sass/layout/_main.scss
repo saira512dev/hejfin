@@ -4,7 +4,7 @@ html {
 
 .alert {
     position: absolute;
-    bottom:5rem;
+    bottom:0rem;
     left: 15rem;
     width: 18rem;
     height: 18rem;
@@ -15,6 +15,10 @@ html {
     align-items: center;
    font-weight: 700;
     text-transform: uppercase;
+}
+
+.move{
+    bottom:5rem;
 }
 
 main{

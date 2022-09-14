@@ -70,7 +70,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 15rem; }
+  padding: 1rem 15rem;
+  background: white; }
   nav ul {
     list-style: none; }
     nav ul li {
@@ -79,15 +80,40 @@ nav {
       cursor: pointer; }
       nav ul li a {
         text-decoration: none;
-        color: black; }
-        nav ul li a:hover {
-          color: white; }
+        color: black;
+        font-weight: bold; }
+  nav .logo {
+    width: 100px;
+    height: auto; }
 
 .sticky {
   position: fixed;
-  top: 0;
   width: 100%;
-  background: black;
+  z-index: 999999999; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 15rem;
+  background: white; }
+  nav ul {
+    list-style: none; }
+    nav ul li {
+      display: inline-block;
+      margin: 0 1rem;
+      cursor: pointer; }
+      nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold; }
+  nav .logo {
+    width: 100px;
+    height: auto; }
+
+.sticky {
+  position: fixed;
+  width: 100%;
   z-index: 999999999; }
 
 header {
@@ -96,9 +122,6 @@ header {
   display: flex;
   flex-direction: column;
   background: url("../../../images/nature-1.jpg") no-repeat center/cover; }
-  header .logo {
-    width: 100px;
-    height: 100px; }
   header .header-content {
     align-self: center;
     margin-top: 8rem;
@@ -118,7 +141,7 @@ html {
 
 .alert {
   position: absolute;
-  bottom: 5rem;
+  bottom: 0rem;
   left: 15rem;
   width: 18rem;
   height: 18rem;
@@ -129,6 +152,9 @@ html {
   align-items: center;
   font-weight: 700;
   text-transform: uppercase; }
+
+.move {
+  bottom: 5rem; }
 
 main .intro {
   display: flex;

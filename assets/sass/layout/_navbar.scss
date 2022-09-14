@@ -2,7 +2,8 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding: 2rem 15rem;
+    padding: 1rem 15rem;
+    background: white;
     
     ul{
         list-style: none;
@@ -14,19 +15,21 @@ nav{
             a{
                 text-decoration: none;
                 color: black;
+                font-weight: bold;
 
-            &:hover{
-                color: white
-            }
             }
         }
+    }
+
+    .logo{
+        width:100px;
+        height: auto;
     }
 }
 
 .sticky {
     position: fixed;
-    top: 0;
     width: 100%;
-    background: black;
     z-index: 999999999;
-  }
+}
+
