@@ -171,6 +171,34 @@ main .parallax {
     font-size: 1.5rem;
     font-weight: bold;
     text-shadow: 1px 1px black; }
+main .trivia {
+  margin: 7rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  main .trivia .trivia-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%; }
+    main .trivia .trivia-image img {
+      width: 70%;
+      height: auto; }
+  main .trivia .trivia-content {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%; }
+    main .trivia .trivia-content h3 {
+      text-align: left;
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: bold; }
+    main .trivia .trivia-content p {
+      line-height: 1.5;
+      width: 30rem; }
 main .contact {
   height: 70vh; }
 

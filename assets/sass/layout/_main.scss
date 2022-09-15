@@ -76,6 +76,47 @@ main{
         }
     }
 
+    .trivia {
+        margin: 7rem 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        // padding: 2rem 10rem;
+
+       .trivia-image {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+
+            img{
+                width: 70%;
+                height: auto;
+            }
+       }
+
+        .trivia-content {
+            display: flex;
+            gap:1rem;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 30%;
+
+            h3 {
+                text-align: left;
+                font-size: 2rem;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            p {
+                line-height: 1.5;
+                width: 30rem;
+            }
+        }
+    }
+
     .contact{
         height:70vh;
         
