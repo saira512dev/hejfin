@@ -133,9 +133,10 @@ html {
 
 main .intro {
   display: flex;
-  margin-top: 7rem;
+  margin-top: 3rem;
+  padding-top: 7rem;
   gap: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   justify-content: center;
   align-items: flex-start; }
   main .intro-sub {
@@ -151,7 +152,7 @@ main .intro {
     main .intro-sub p {
       text-align: center; }
 main .parallax {
-  margin: 4rem 0;
+  margin-top: 4rem;
   min-height: 400px;
   background: url("../../../images/pexels-cotton.jpg");
   position: relative;
@@ -172,7 +173,8 @@ main .parallax {
     font-weight: bold;
     text-shadow: 1px 1px black; }
 main .trivia {
-  margin: 7rem 0;
+  background: rgba(221, 217, 231, 0.4);
+  padding: 7rem 0;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -200,13 +202,66 @@ main .trivia {
       line-height: 1.5;
       width: 30rem; }
 main .contact {
-  height: 70vh; }
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 3rem; }
+  main .contact h3 {
+    text-align: left;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold; }
+  main .contact p {
+    line-height: 1.5;
+    width: 30rem; }
+
+form {
+  border: 0.1rem solid #4d8b80;
+  border-radius: 2rem;
+  padding: 3rem; }
+  form .fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem 0; }
+    form .fields label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 550;
+      letter-spacing: 0.2rem;
+      line-height: 1.5;
+      text-transform: uppercase; }
+    form .fields input, form .fields textarea {
+      width: 35rem;
+      border: none;
+      background: rgba(221, 217, 231, 0.3); }
+    form .fields input {
+      height: 2.5rem; }
+    form .fields textarea {
+      height: 10rem; }
+
+.primary {
+  width: 10rem;
+  padding: 0.5rem;
+  height: 2.5rem;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  background: rgba(77, 139, 128, 0.5); }
 
 footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
+  min-height: 5rem;
   max-width: 100%;
-  margin: 2rem 0;
-  text-align: center; }
+  margin-top: 4rem;
+  text-align: center;
+  background: rgba(221, 217, 231, 0.3); }
   footer .copyright {
     letter-spacing: 0.4rem;
     font-size: 0.8rem;
@@ -214,5 +269,14 @@ footer {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 550; }
+  footer .socials {
+    display: flex;
+    gap: 1rem; }
+    footer .socials i {
+      font-size: 2rem;
+      color: #4d8b80; }
+  footer img {
+    width: 5rem;
+    height: auto; }
 
 /*# sourceMappingURL=main.css.map */

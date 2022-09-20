@@ -7,7 +7,7 @@
     <meta name="keywords" content="growth, finance, women, money, investments">
     <meta name="author" content="Hejfin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="assets/css/main.css" />
     <title>Hejfin</title>
 </head>
 <body>
@@ -79,9 +79,46 @@
                 </div>
             </section>
             <section class="team" id="team"></section>
-            <section class="contact" id="contact"></section>
+            <section class="contact" id="contact">
+                <h3>Join Us</h3>
+                <p class="contact-text">
+                    Join us and be a part of this exciting process.
+                    Contact us if you are interested in being a part of 
+                    our user testing process. We would love to hear from you.
+                </p>
+                <form name = "contactUs" method="post" action="#" data-netlify="true">
+                    <div class="fields">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" required id="name" />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" required id="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message"required rows="4"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" class="primary" /></li>
+                        <!-- <li><input type="reset" value="Reset" /></li> -->
+                    </ul>
+                </form>
+                <!-- <ul class="icons"> -->
+                    <!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                   
+                </ul> -->
+            </section>
             <footer>
-                <span class="copyright">&copy; HejFin</p>
+                <a href="/"><img src="images/Logo_dark_green.svg" alt="logo" /></a>
+                <span class="copyright">&copy; HejFin</span>
+                <div class="socials">
+                    <a href="https://www.facebook.com/hejfintech" aria-label="facebook page"><i class="fa-brands fa-facebook" ></i></a>
+                    <a href="https://www.instagram.com/hejfin_tech/?hl=en" aria-label="instagram page"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/hejfin/" aria-label="linkedin page"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
             </footer>
 
         </main>
