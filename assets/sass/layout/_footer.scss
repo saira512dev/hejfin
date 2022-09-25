@@ -1,5 +1,6 @@
 footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -32,6 +33,28 @@ footer {
     img {
         width: 5rem;
         height: auto;
+    }
+
+    @include md {
+        flex-direction: column;
+        padding-block: 1rem;
+        gap: 2rem;
+
+        .copyright {
+            order: 2
+        }
+
+        .socials {
+            gap: 1rem;
+            
+            i {
+                font-size: 1.5rem;
+            }
+        }
+    
+        img {
+            width: 3.5rem;
+        }
     }
 
 }
