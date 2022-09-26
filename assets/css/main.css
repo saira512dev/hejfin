@@ -172,10 +172,15 @@ main .parallax {
     color: white;
     text-align: center;
     line-height: 1.5;
-    padding: 0 20rem;
+    width: 70%;
     font-size: 1.5rem;
     font-weight: bold;
     text-shadow: 1px 1px black; }
+    @media (max-width: 768px) {
+      main .parallax .parallax-text {
+        padding-block: 1rem;
+        font-size: 1.3rem;
+        width: 90%; } }
 main .trivia {
   background: rgba(221, 217, 231, 0.4);
   padding: 7rem 1rem;

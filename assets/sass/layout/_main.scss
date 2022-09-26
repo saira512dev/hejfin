@@ -96,11 +96,19 @@ main{
             color:white;
             text-align: center;
             line-height: 1.5;
-            padding:0 20rem;
+            width: 70%;
             font-size: 1.5rem;
             font-weight: bold;
             text-shadow: 1px 1px black;
+
+            @include md {
+                padding-block: 1rem;
+                font-size: 1.3rem;
+                width: 90%;
+            }
         }
+
+        
     }
 
     .trivia {
