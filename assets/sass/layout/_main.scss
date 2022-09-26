@@ -49,17 +49,17 @@ html {
         left: 8rem;  
     }
 
-    @include rwd(650px){
+    @include rwd(600px){
         width: 12rem;
         height: 12rem;
-        bottom:5rem;
+        bottom:15rem;
         left: 4rem;  
     }
 
     @include rwd(420px){
         width: 10rem;
         height: 10rem;
-        bottom:5rem;
+        bottom:20rem;
         left: 2rem;  
         font-size: 0.7rem;
     }

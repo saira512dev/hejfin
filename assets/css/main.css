@@ -99,7 +99,7 @@ header {
   align-items: flex-start;
   background: url("../../../images/nature-1.jpg") no-repeat center/cover; }
   header .header-content {
-    margin-top: 15rem;
+    margin: 15rem 1rem 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,6 +107,12 @@ header {
     header .header-content h1 {
       font-size: 3em;
       margin-bottom: 1rem; }
+    header .header-content h2 {
+      line-height: 1.5;
+      text-align: center; }
+  @media (max-width: 600px) {
+    header {
+      min-height: 70vh; } }
 
 .header-container {
   clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 80%); }
@@ -137,17 +143,17 @@ html {
   @media (max-width: 992px) {
     .alert {
       left: 8rem; } }
-  @media (max-width: 650px) {
+  @media (max-width: 600px) {
     .alert {
       width: 12rem;
       height: 12rem;
-      bottom: 5rem;
+      bottom: 15rem;
       left: 4rem; } }
   @media (max-width: 420px) {
     .alert {
       width: 10rem;
       height: 10rem;
-      bottom: 5rem;
+      bottom: 20rem;
       left: 2rem;
       font-size: 0.7rem; } }
 

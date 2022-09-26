@@ -6,12 +6,8 @@ header {
     align-items: flex-start;
     background: url('../../../images/nature-1.jpg') no-repeat center/cover;
 
-    // @include lg{
-    //     background-position: center/cover ;
-    // }
-
     .header-content {
-        margin-top: 15rem;
+        margin: 15rem 1rem 0 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -21,5 +17,14 @@ header {
             font-size: 3em;
             margin-bottom: 1rem;
         }
+
+        h2{
+            line-height: 1.5;
+            text-align: center;
+        }
+    }
+
+    @include rwd(600px){
+        min-height: 70vh;
     }
 }
