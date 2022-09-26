@@ -216,11 +216,19 @@ main .contact {
   main .contact p {
     line-height: 1.5;
     width: 30rem; }
+  @media (max-width: 576px) {
+    main .contact {
+      margin: 5rem 1rem; }
+      main .contact h3 {
+        font-size: 1.5rem; }
+      main .contact p {
+        width: 90%; } }
 
 form {
   border: 0.1rem solid #4d8b80;
   border-radius: 2rem;
-  padding: 3rem; }
+  padding: 3rem;
+  width: 35%; }
   form .fields {
     display: flex;
     flex-direction: column;
@@ -235,7 +243,7 @@ form {
       text-transform: uppercase; }
     form .fields input, form .fields textarea {
       margin-top: 0.2rem;
-      width: 35rem;
+      width: 100%;
       border: none;
       background: rgba(221, 217, 231, 0.3);
       padding-left: 1rem; }
@@ -244,6 +252,17 @@ form {
     form .fields textarea {
       height: 10rem;
       padding-top: 1rem; }
+  @media (max-width: 1500px) {
+    form {
+      width: 50%; } }
+  @media (max-width: 1200px) {
+    form {
+      width: 80%; } }
+  @media (max-width: 576px) {
+    form {
+      width: 90%;
+      padding: 1.5rem;
+      border-radius: 1.5rem; } }
 
 .primary {
   width: 10rem;
@@ -256,6 +275,10 @@ form {
   background: rgba(77, 139, 128, 0.5);
   text-transform: uppercase;
   cursor: pointer; }
+  @media (max-width: 576px) {
+    .primary {
+      width: 8rem;
+      font-size: 0.7rem; } }
 
 footer {
   display: flex;

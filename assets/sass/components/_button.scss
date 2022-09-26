@@ -9,4 +9,9 @@
     background: rgba(77, 139, 128, 0.5);
     text-transform: uppercase;
     cursor: pointer;
+
+    @include sm {
+        width: 8rem;
+        font-size: 0.7rem;
+    }
 }

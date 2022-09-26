@@ -9,9 +9,17 @@ html {
     font-weight: bold;
   }
 
+  @mixin heading-style-mobile {
+    font-size: 1.5rem;
+  }
+
   @mixin paragraph-style {
     line-height: 1.5;
     width: 30rem;
+  }
+
+  @mixin paragraph-style-mobile {
+    width: 90%;
   }
   
 
@@ -144,7 +152,17 @@ main{
             @include paragraph-style;
         }
 
-        
+        @include sm {
+            margin: 5rem 1rem;
+
+            h3 {
+                @include heading-style-mobile;
+            }
+    
+            p {
+                @include paragraph-style-mobile;
+            }
+        }
 
         
     }
