@@ -6,6 +6,10 @@ header {
     align-items: flex-start;
     background: url('../../../images/nature-1.jpg') no-repeat center/cover;
 
+    // @include lg{
+    //     background-position: center/cover ;
+    // }
+
     .header-content {
         margin-top: 15rem;
         display: flex;
