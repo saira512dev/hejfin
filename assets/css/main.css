@@ -151,6 +151,10 @@ main .intro {
       height: auto; }
     main .intro-sub p {
       text-align: center; }
+  @media (max-width: 992px) {
+    main .intro {
+      flex-direction: column;
+      align-items: center; } }
 main .parallax {
   margin-top: 4rem;
   min-height: 400px;
@@ -174,7 +178,7 @@ main .parallax {
     text-shadow: 1px 1px black; }
 main .trivia {
   background: rgba(221, 217, 231, 0.4);
-  padding: 7rem 0;
+  padding: 7rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -182,25 +186,52 @@ main .trivia {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%; }
+    width: 30%; }
     main .trivia .trivia-image img {
-      width: 70%;
+      width: 20rem;
       height: auto; }
+      @media (max-width: 576px) {
+        main .trivia .trivia-image img {
+          width: 15rem; } }
+    @media (max-width: 1450px) {
+      main .trivia .trivia-image {
+        width: 50%; } }
+    @media (max-width: 992px) {
+      main .trivia .trivia-image {
+        order: -1; } }
   main .trivia .trivia-content {
     display: flex;
     gap: 1rem;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-    width: 30%; }
+    align-items: flex-start; }
     main .trivia .trivia-content h3 {
       text-align: left;
       font-size: 2rem;
       text-transform: uppercase;
       font-weight: bold; }
+      @media (max-width: 768px) {
+        main .trivia .trivia-content h3 {
+          font-size: 1.5rem; } }
     main .trivia .trivia-content p {
       line-height: 1.5;
       width: 30rem; }
+      @media (max-width: 992px) {
+        main .trivia .trivia-content p {
+          text-align: center; } }
+      @media (max-width: 768px) {
+        main .trivia .trivia-content p {
+          width: 90%; } }
+    @media (max-width: 992px) {
+      main .trivia .trivia-content {
+        align-items: center;
+        justify-content: center; } }
+  @media (max-width: 992px) {
+    main .trivia {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      justify-content: center; } }
 main .contact {
   display: flex;
   gap: 2rem;

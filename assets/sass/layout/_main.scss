@@ -71,6 +71,11 @@ main{
                 text-align: center;
             }
         }
+
+        @include lg{
+            flex-direction: column;
+            align-items:center;
+        }
     }
 
     .parallax{
@@ -100,21 +105,32 @@ main{
 
     .trivia {
         background: rgba(221,217,231, 0.4);
-        padding: 7rem 0;
+        padding: 7rem 1rem;
         display:flex;
         justify-content: center;
         align-items: center;
-        // padding: 2rem 10rem;
 
        .trivia-image {
             display:flex;
             justify-content: center;
             align-items: center;
-            width: 25%;
+            width: 30%;
 
             img{
-                width: 70%;
+                width:20rem;
                 height: auto;
+
+                @include sm {
+                    width: 15rem;
+                }
+            }
+
+            @include rwd(1450px){
+                width: 50%;
+            }
+
+            @include lg {
+                    order: -1;
             }
        }
 
@@ -124,15 +140,38 @@ main{
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
-            width: 30%;
 
             h3 {
                 @include heading-style;
+
+                @include md{
+                    @include heading-style-mobile;
+                }
             }
 
             p {
                 @include paragraph-style;
+
+                @include lg{
+                   text-align: center;
+                }
+
+                @include md{
+                    @include paragraph-style-mobile;
+                }
             }
+
+            @include lg{
+                align-items:center;
+                justify-content: center;
+            }
+        }
+
+        @include lg{
+            flex-direction: column;
+            align-items:center;
+            gap: 3rem;
+            justify-content: center;
         }
     }
 
@@ -163,8 +202,6 @@ main{
                 @include paragraph-style-mobile;
             }
         }
-
-        
     }
 }
 
