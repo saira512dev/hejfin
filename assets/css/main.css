@@ -205,7 +205,10 @@ html {
   @media (max-width: 992px) {
     .alert {
       left: 8rem;
-      bottom: 10rem; } }
+      bottom: 6rem; } }
+  @media (max-width: 920px) {
+    .alert {
+      bottom: 9rem; } }
   @media (max-width: 768px) {
     .alert {
       bottom: 5rem; } }

@@ -51,7 +51,11 @@ html {
 
     @include lg{
         left: 8rem;  
-        bottom: 10rem;
+        bottom: 6rem;
+    }
+
+    @include rwd(920px){
+        bottom: 9rem;
     }
 
 
