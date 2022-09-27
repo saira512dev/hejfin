@@ -1,5 +1,10 @@
 html {
     scroll-behavior: smooth;
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
   }
 
   @mixin heading-style {
@@ -221,7 +226,8 @@ main {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 3rem;
+        padding-top: 7rem;
+        padding-bottom: 3.5rem;
         
         h3 {
             @include heading-style;
@@ -232,7 +238,7 @@ main {
         }
 
         @include sm {
-            margin: 5rem 1rem;
+            margin: 2rem 1rem;
 
             h3 {
                 @include heading-style-mobile;
