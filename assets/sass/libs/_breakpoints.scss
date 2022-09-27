@@ -4,6 +4,12 @@
         @content;
     }
  }
+
+ @mixin md-portrait {
+    @media (max-width: #{$screen-md-max}) and (orientation: landscape) {
+        @content;
+    }
+ }
  
  // Medium devices
  @mixin md {
@@ -15,6 +21,18 @@
  // Large devices
  @mixin lg {
     @media (max-width: #{$screen-lg-max}) {
+        @content;
+    }
+ }
+
+ @mixin lg-portrait {
+    @media (max-width: #{$screen-lg-max}) and (orientation: landscape) {
+        @content;
+    }
+ }
+
+ @mixin xl-portrait {
+    @media (min-width: #{$screen-xl-max}) and (orientation: landscape) {
         @content;
     }
  }

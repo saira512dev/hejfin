@@ -47,6 +47,7 @@ html {
         width: 15rem;
         height: 15rem;
         text-align: center;
+        bottom: 0rem;
     }
 
     @include lg{
@@ -62,6 +63,24 @@ html {
     @include md{
         bottom: 5rem;
     }
+
+    @include md-portrait{
+        bottom: -1.5rem;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    @include lg-portrait{
+        bottom: 1rem;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    // @include xl-portrait{
+    //     bottom: 4rem;
+    //     width: 10rem;
+    //     height: 10rem;
+    // }
 
     @include sm{
         width: 12rem;
