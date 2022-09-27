@@ -47,29 +47,34 @@ html {
 
     @include lg{
         left: 8rem;  
+        bottom: 1rem;
     }
 
     @include rwd(600px){
         width: 12rem;
         height: 12rem;
-        bottom:15rem;
+        //bottom:3rem;
         left: 4rem;  
     }
 
-    @include rwd(420px){
+    @include rwd(400px) {
         width: 10rem;
         height: 10rem;
-        bottom:20rem;
+        bottom: -2rem;
         left: 2rem;  
         font-size: 0.7rem;
     }
 }
 
-.move{
+.move {
     bottom:5rem;
 }
 
-main{
+.move-mobile {
+    bottom: 0rem
+}
+
+main {
 
     .intro {
         display: flex;

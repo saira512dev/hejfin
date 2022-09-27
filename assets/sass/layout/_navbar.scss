@@ -19,17 +19,63 @@ nav{
 
             }
         }
+
+        @include md {
+            display: none;
+        }
     }
 
     .logo{
         width:100px;
         height: auto;
     }
+
+    .mobile-menu {
+        .mobile-menu-icon {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            background: rgba(221,217,231, 0.3);
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+    
+            hr {
+                width: 1.5rem;
+                margin: 0;
+                height: 0.1rem;
+            }
+        }
+
+        @include md {
+            display: block;
+        }
+    }
+
+    @include xl {
+        padding: 1rem 8rem;
+    }
+
+    @include lg {
+        padding: 1rem 6rem;
+    }
+
+    @include sm {
+        padding: 1rem 3rem;
+    }
+    
 }
 
 .sticky {
     position: fixed;
     width: 100%;
     z-index: 999999999;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
 }
 
