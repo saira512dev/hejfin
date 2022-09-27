@@ -30,7 +30,7 @@ html {
 
 .alert {
     position: absolute;
-    bottom:0rem;
+    bottom:3rem;
     left: 15rem;
     width: 18rem;
     height: 18rem;
@@ -47,27 +47,23 @@ html {
         width: 15rem;
         height: 15rem;
         text-align: center;
-        bottom:2rem;
     }
 
     @include lg{
         left: 8rem;  
-        bottom: 1rem;
+        bottom: 10rem;
     }
 
-    @include rwd(600px){
+
+    @include md{
+        bottom: 5rem;
+    }
+
+    @include sm{
         width: 12rem;
         height: 12rem;
-        //bottom:3rem;
+        bottom:3rem;
         left: 4rem;  
-    }
-
-    @include rwd(400px) {
-        width: 10rem;
-        height: 10rem;
-        bottom: -2rem;
-        left: 2rem;  
-        font-size: 0.7rem;
     }
 }
 

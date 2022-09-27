@@ -27,15 +27,8 @@ function displayMobileMenu() {
 //   }
 // }
 
-// function fixNavbarMobile() {
-//   if (window.pageYOffset > stickyMobile && window.screen.availWidth > 768) {
-//     mobileMenu.classList.add("sticky")
-//   } else {
-//     mobileMenu.classList.remove("sticky");
-//   }
-// }
+
 
 //  window.onscroll = function() {
   //fixNavbar()
-  // fixNavbarMobile()
 // };
