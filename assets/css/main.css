@@ -271,29 +271,33 @@ main .parallax {
   min-height: 400px;
   background: url("../../../images/pexels-cotton.jpg");
   position: relative;
-  opacity: 0.9;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-color: black; }
+  main .parallax .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999; }
   main .parallax .parallax-text {
     color: white;
     text-align: center;
     line-height: 1.5;
     width: 70%;
     font-size: 1.5rem;
-    font-weight: bold;
-    text-shadow: 1px 1px black; }
+    font-weight: bold; }
     @media (max-width: 768px) {
       main .parallax .parallax-text {
         padding-block: 1rem;
         font-size: 1.3rem;
         width: 90%; } }
 main .trivia {
-  background: rgba(221, 217, 231, 0.4);
   padding: 7rem 1rem;
   display: flex;
   justify-content: center;
@@ -331,10 +335,8 @@ main .trivia {
           font-size: 1.5rem; } }
     main .trivia .trivia-content p {
       line-height: 1.5;
-      width: 30rem; }
-      @media (max-width: 992px) {
-        main .trivia .trivia-content p {
-          text-align: center; } }
+      width: 30rem;
+      text-align: justify; }
       @media (max-width: 768px) {
         main .trivia .trivia-content p {
           width: 90%; } }
