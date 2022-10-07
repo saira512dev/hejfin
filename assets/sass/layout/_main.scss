@@ -137,24 +137,36 @@ main {
     .parallax{
         margin-top: 4rem;
         min-height: 400px;
-        background: url('../../../images/pexels-cotton.jpg');
         position: relative;
-        // opacity: 0.5;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: black;
+       // background-color: black;
+
+        .parallax-image {
+            background: url('../../../images/pexels-cotton.jpg');
+            // opacity: 0.5;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
 
         .overlay{
             position: absolute;
             width: 100%;
             height: 100%;
-            background: rgba(black, 0.6);
-            z-index: 999;
+            background: rgba(0,0,0, 0.5);
+            z-index: 10;
+            // background-image: linear-gradient(
+            // to right,
+            // rgba(0, 0, 0, 0.8),
+            // rgba(0, 0, 0, 0) 60%,
+            // rgba(0, 0, 0, 0.8) 100%
+            //  );
         }
 
         .parallax-text{
@@ -164,6 +176,7 @@ main {
             width: 70%;
             font-size: 1.5rem;
             font-weight: bold;
+            z-index: 9999;
             //text-shadow: 1px 1px black;
 
             @include md {
