@@ -161,12 +161,6 @@ main {
             height: 100%;
             background: rgba(0,0,0, 0.5);
             z-index: 10;
-            // background-image: linear-gradient(
-            // to right,
-            // rgba(0, 0, 0, 0.8),
-            // rgba(0, 0, 0, 0) 60%,
-            // rgba(0, 0, 0, 0.8) 100%
-            //  );
         }
 
         .parallax-text{
@@ -177,7 +171,6 @@ main {
             font-size: 1.5rem;
             font-weight: bold;
             z-index: 9999;
-            //text-shadow: 1px 1px black;
 
             @include md {
                 padding-block: 1rem;
