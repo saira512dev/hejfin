@@ -14,21 +14,3 @@ mobileLinks.forEach(link => link.addEventListener("click", displayMobileMenu))
 function displayMobileMenu() {
   mobileMenu.classList.toggle('hidden')
 }
-
-
-
-// function fixNavbar() {
-//   if (window.pageYOffset > sticky && window.screen.availWidth > 768) {
-//     navbar.classList.add("sticky")
-//     alert.classList.add("move");
-//   } else {
-//     navbar.classList.remove("sticky");
-//     alert.classList.remove("move");
-//   }
-// }
-
-
-
-//  window.onscroll = function() {
-  //fixNavbar()
-// };
