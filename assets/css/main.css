@@ -360,7 +360,7 @@ main .contact {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 7rem;
+  padding-top: 5rem;
   padding-bottom: 3.5rem; }
   main .contact h3 {
     text-align: left;
@@ -377,6 +377,22 @@ main .contact {
         font-size: 1.5rem; }
       main .contact p {
         width: 90%; } }
+
+.primary {
+  width: 10rem;
+  padding: 0.5rem;
+  height: 2.5rem;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  background: rgba(77, 139, 128, 0.5);
+  text-transform: uppercase;
+  cursor: pointer; }
+  @media (max-width: 576px) {
+    .primary {
+      width: 8rem;
+      font-size: 0.7rem; } }
 
 form {
   border: 0.1rem solid #4d8b80;
@@ -418,21 +434,30 @@ form {
       padding: 1.5rem;
       border-radius: 1.5rem; } }
 
-.primary {
-  width: 10rem;
-  padding: 0.5rem;
-  height: 2.5rem;
-  color: white;
-  border: none;
-  font-weight: bold;
-  border-radius: 1rem;
-  background: rgba(77, 139, 128, 0.5);
-  text-transform: uppercase;
-  cursor: pointer; }
+.calendly {
+  display: flex;
+  flex-direction: column;
+  background: rgba(221, 217, 231, 0.3); }
+
+.calendly-close {
+  align-self: flex-end;
+  font-size: 4rem;
+  color: #4d8b80;
+  text-decoration: none;
+  transition: 0.3s; }
+
+.calendly-frame {
+  height: 70rem;
+  width: 50rem; }
+  @media (max-width: 992px) {
+    .calendly-frame {
+      width: 30rem; } }
   @media (max-width: 576px) {
-    .primary {
-      width: 8rem;
-      font-size: 0.7rem; } }
+    .calendly-frame {
+      width: 20rem; } }
+  @media (max-width: 350px) {
+    .calendly-frame {
+      width: 15rem; } }
 
 footer {
   display: flex;

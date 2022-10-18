@@ -1,0 +1,30 @@
+.calendly {
+    display: flex;
+    flex-direction: column;
+    background: rgba(221,217,231, 0.3);
+}
+
+.calendly-close{
+    align-self: flex-end;
+    font-size: 4rem;
+    color: rgb(77, 139, 128);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.calendly-frame{
+    height:70rem;
+    width:50rem;
+
+    @include lg {
+        width:30rem;
+    }
+
+    @include sm {
+        width:20rem;
+    }
+
+    @include rwd(350px){
+        width: 15rem;
+    }
+}

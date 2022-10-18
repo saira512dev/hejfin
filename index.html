@@ -35,7 +35,6 @@
             <ul class="links">
               <li><a href="#intro">Intro</a></li>
               <li><a href="#trivia"> Our Goal</a></li>
-              <!-- <li><a href="#team">Team</a></li> -->
               <li><a href="#contact">Join us</a></li>
             </ul>
             <div class="mobile-menu-button">
@@ -51,7 +50,6 @@
               <ul class="mobile-links-list">
                 <li class="mobile-link"><a href="#intro">Intro</a></li>
                 <li class="mobile-link"><a href="#trivia"> Our Goal</a></li>
-                <!-- <li><a href="#team">Team</a></li>-->
                 <li class="mobile-link"><a href="#contact">Join Us</a></li>
               </ul>
             </nav>
@@ -139,25 +137,22 @@
             are interested in being a part of our user testing process. We would
             love to hear from you.
           </p>
-          <div class="calendly">
+          <div class="hidden calendly">
+            <a href="#" class="hidden calendly-close">&times;</a>
+            <iframe  src="https://calendly.com/hejfin-team/hejfin-user-testing" class="hidden calendly-frame" scrolling="no" frameborder="0"></iframe>
+            
             <!-- Calendly link widget begin -->
-            <link
-              href="https://assets.calendly.com/assets/external/widget.css"
-              rel="stylesheet"
-            />
-            <script
-              src="https://assets.calendly.com/assets/external/widget.js"
-              type="text/javascript"
-              async
-            ></script>
-            <!-- <a
-              href=""
-              onclick="Calendly.initPopupWidget({url:'https://calendly.com/hejfin-team/hejfin-user-testing?background_color=f3f6f6&text_color=867484&primary_color=4d8b80'});return false;"
-              >Sign up!</a
-            > -->
+           
+            <!-- <a href="" class="calendly-popup" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/hejfin-team/hejfin-user-testing?background_color=f3f6f6&text_color=867484&primary_color=4d8b80&width=200px'});return false;">
+              Sign up!
+            </a> -->
             <!-- Calendly link widget end -->
           </div>
-          <form name="contactUs" method="post" action="#" data-netlify="true">
+          <button
+                  class="calendly-popup primary"
+            > Confirm user interview </button>
+
+          <!-- <form name="contactUs" method="post" action="#" data-netlify="true">
             <div class="fields">
               <div class="field">
                 <label for="name">Name</label>
@@ -185,9 +180,9 @@
                   class="primary form-btn"
                 />
               </li>
-              <!-- <li><input type="reset" value="Reset" /></li> -->
+               <li><input type="reset" value="Reset" /></li> 
             </ul>
-          </form>
+          </form> -->
           <!-- <ul class="icons"> -->
           <!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
                    
