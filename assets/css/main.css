@@ -302,6 +302,7 @@ main .parallax {
         font-size: 1.3rem;
         width: 90%; } }
 main .trivia {
+  background: rgba(221, 217, 231, 0.4);
   padding: 7rem 1rem;
   display: flex;
   justify-content: center;
