@@ -1,6 +1,8 @@
 ### HEJFIN
 
-<iframe src="https://giphy.com/embed/Mx1y2TrgDqmh4TWyGk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Mx1y2TrgDqmh4TWyGk">via GIPHY</a></p>
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/Mx1y2TrgDqmh4TWyGk/giphy.gif" width="100%"/>
+</div>
 
 ### Description :
 This is a website for an early stage fintech app. Through this website, the team wants to let the world know about their app and let the users get in touch with them for user-testing process.
